@@ -34,8 +34,8 @@ REVIEW CAREFULLY: 1 warning sign(s) found.
 | 2 | http://192.0.2.10/account | IP address & HTTP warnings| IP address & HTTP warnings | [PASS] |
 [Add rows 2 to 5. Full table is in tests/test_samples.md]
 ## Screenshots
-![c:\Users\saisa\OneDrive\Documents\phishing-url-awareness\screenshots\sample_run1.png](screenshots/sample_run.png)
-![c:\Users\saisa\OneDrive\Documents\phishing-url-awareness\screenshots\test_results1.png](screenshots/test_results.png)
+![Sample run](Screenshots/sample_run1.png)
+![Test results](Screenshots/test_results1.png)
 ## Improvements
 1. [Santhosh] - [1. **URL Format Validation** - Wrapped Python's `urlparse` function in a `try-except` block. This changed how malformed input text is handled so the program gracefully reports an invalid format instead of crashing with a ValueError, verified by testing with broken or text-only strings.]
 2. [Santhosh] - [2. **Review Carefully Summary** - Added a `has_warnings` helper function and conditional logic to check findings. This changed the output to dynamically display a total warning count summary for suspicious links, verified by running all sample test cases.]
